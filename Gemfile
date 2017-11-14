@@ -59,6 +59,7 @@ gem 'will_paginate', '> 3.1'
 
 gem 'bootstrap', '~> 4.0.0.beta2.1'
 gem 'will_paginate-bootstrap4'
+gem 'simple_form'
 
 
 source 'https://rails-assets.org' do
