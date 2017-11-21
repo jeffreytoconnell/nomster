@@ -16,7 +16,7 @@ class PlacesController < ApplicationController
         else
             render :new, status: :unprocessable_entity
     end
-end
+    end
 
     def show
         @place = Place.find(params[:id])
@@ -38,7 +38,6 @@ end
         @place.destroy
         redirect_to root_path
     end
-
 
     def update 
         @place = Place.find(params[:id])
