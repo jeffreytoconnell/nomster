@@ -1,6 +1,7 @@
 <div class="booyah-box col-10 offset-1">
     <h1>
         <%= @place.name %>
+        <%= image_tag @place.image.url, class: "place_image"%>
     </h1>
     <i>
         <%= @place.address %>
