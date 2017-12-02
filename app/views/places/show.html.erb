@@ -1,16 +1,23 @@
 <div class="booyah-box col-10 offset-1">
     <h1>
         <%= @place.name %>
-        <%= image_tag @place.image.url, class: "place_image"%>
+        
     </h1>
     <i>
         <%= @place.address %>
     </i>
     <br/>
+    
     <br/>
     <p>
         <%= @place.description %>
     </p>
+    <p>
+    <%= image_tag @place.image.url, class: "place_image"%>
+    </p>
+
+    
+    <br />
 
     <% if @place.latitude.present? && @place.longitude.present? %>
 
