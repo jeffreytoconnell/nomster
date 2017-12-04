@@ -89,8 +89,9 @@ blockquote {
   }
 
   .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
-    max-height: 550px;
-    width: 100%;
+    max-height: 300px;
+    width: 33%;
+    margin-top: 0px;
   }
 
   .carousel-caption {
@@ -99,11 +100,12 @@ blockquote {
     font-weight: 100;
     text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
+    width: auto;
     position: absolute;
     left: 0;
   }
 
   .carousel {
     box-shadow: 0px 3px 8px #2a2a2a;
+    margin-top: -8px;
   }
